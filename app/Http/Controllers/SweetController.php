@@ -4,7 +4,7 @@ use Request;
 class SweetController extends Controller {
     
     public function getHomePage(){
-        return view('homepage');
+        return view('homePage');
     }
     
     public function getText(){
