@@ -80,7 +80,7 @@ class SweetController extends Controller {
         return $month . "/" . $day . "/" . $year;
     }
     public function getDescriptions($number){
-        $descriptionsArr = ["I love getting 117s!","I have a pet math exam","I've studied for this exam since the 117th minute of my life","I do get disappointed when I get low grades like 100","My face after a mere :(","The derivative of 117x is 117","My favorite number is the square root of 13689","Want to hear a joke? Knock Knock. Whos there. 117. 117 Who? No I got the 117 not you!","The distance between Boston,MA and Campton,NH is equivalent to my math grade 87 miles jk lol","I wish Alex didn'tknow that I got a 117 on my BC Calculus first semester exam"];
+        $descriptionsArr = ["I love getting 117s!","I have a pet math exam","I've studied for this exam since the 117th minute of my life","I do get disappointed when I get low grades like 100","My face after a mere 100 is :(","The derivative of 117x is 117","My favorite number is the square root of 13689","Want to hear a joke? Knock Knock. Whos there. 117. 117 Who? No I got the 117 not you!","The distance between Boston,MA and Campton,NH is equivalent to my math grade 87 miles jk lol","I wish Alex didn'tknow that I got a 117 on my BC Calculus first semester exam"];
         $profiles = array();
         $size = sizeof($descriptionsArr)-1;
         for($i=0;$i<$number;$i++){
